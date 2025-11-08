@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calcular Nota Mínima</title>
+  <link rel="stylesheet" href="../estilos.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📘 Calcular Nota Mínima</h1>
+
+    <div class="card">
+      <label for="numCortes">Cantidad de cortes:</label>
+      <input type="number" id="numCortes" min="2" max="10" value="3">
+
+      <div id="cortesContainer"></div>
+
+      <button id="btnGenerar">Generar cortes</button>
+      <button id="btnCalcular" style="display:none;">Calcular nota mínima</button>
+      <button onclick="location.href='../index.html'" class="volver">⬅ Volver</button>
+    </div>
+
+    <div id="resultado" class="card resultado"></div>
+  </div>
+
+  <script src="../proceso/calcularnotaminima.js"></script>
+</body>
+</html>
