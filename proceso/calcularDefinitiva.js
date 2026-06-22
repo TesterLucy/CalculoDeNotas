@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
             corte.innerHTML = `
                 <h3>Corte</h3>
                 <label>% del total: </label><input type="number" min="1" max="100" step="1" class="pesoCorte">
-                <button class="btn agregar">Agregar Parte</button>
+                <button class="btn agregar">Agregar Actividad</button>
                 <button class="btn eliminar">Eliminar Corte</button>
                 <div class="partes"></div>
             `;
@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <h4>Parte del corte</h4>
                     <label>Nombre: </label><input type="text" placeholder="Ej: Actividades, Taller..." class="nombreParte">
                     <label>, y el porcentaje dentro del corte es: </label><input type="number" min="1" max="100" class="pesoParte">
-                    <button class="btn agregar">Agregar Actividad</button>
+                    <button class="btn agregar">Agregar Nota</button>
                     <button class="btn eliminar">Eliminar Parte</button>
                     <div class="actividades"></div>
                 `;
